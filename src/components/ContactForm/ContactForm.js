@@ -15,6 +15,8 @@ export default function ContactForm() {
 
         dispatch(addContact(name, phone))        
 
+        form.reset()
+
     }
 
     return (
